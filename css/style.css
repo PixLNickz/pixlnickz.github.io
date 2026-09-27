@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Fonts */
+
+@font-face {
+    font-family: "Franklin Gothic Heavy";
+    src: url("../fonts/Franklin Gothic Heavy Regular.ttf") format("truetype");
+}
+
+
+/* General */
+
+body {
+    background-color: #1B1B1B;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 1280px;
+    margin: 60px auto;
+    padding: 0 40px;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 40px;
+}
+
+.navbarLogo {
+    width: 75px;
+}
+
+a {
+    padding-left: 40px;
+
+    font-family: "Franklin Gothic Heavy";
+    font-size: 21px;
+    color: #B2B1A255;
+
+    text-decoration: none;
+}
+
+a.active {
+    color: #AC9C72;
+    text-decoration: underline;
+}
+
+
+/* Sections */
+
+section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.leftWhoAmI {
+    flex: 3;
+}
+
+.rightWhoAmI {
+    flex: 7;
+}
+
+.rightWhoAmI.logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Text */
+
+p {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-size: 21px;
+    color: #B2B1A2;
+}
+
+p.small {
+    color: #AC9C72;
+    font-size: 13px;
+}
+
+h1 {
+    margin: 0;
+
+    font-family: "Franklin Gothic Heavy";
+    font-size: clamp(50px, 8vw, 100px);
+    line-height: 0.9;
+    color: #B2B1A2;
+}
+
+.nick {
+    color: #AC9C72;
+    font-size: clamp(60px, 9.5vw, 120px);
+}
+
+h2 {
+    margin: 0 0 20px;
+
+    font-family: "Franklin Gothic Heavy";
+    font-size: 66px;
+    line-height: 0.9;
+    color: #B2B1A2;
+}
+
+
+/* Images */
+
+div.rightWhoAmI img {
+    display: block;
+
+    width: 362px;
+    max-width: 100%;
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/* Lines */
+
+hr {
+    margin: 0;
+    padding: 0;
+    border-top: 0;
+    color: #B2B1A250;
+}
+
+.midWhoAmI {
+    margin-bottom: 60px;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 75px;
+    padding: 0 40px;
+}
+
+footer span {
+    font-family: "Franklin Gothic Heavy";
+    font-size: 21px;
+    color: #B2B1A2;
+}
+

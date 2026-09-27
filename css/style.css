@@ -47,18 +47,28 @@ nav {
 }
 
 a {
-    padding-left: 40px;
-
+    margin-left: 40px;
+    
     font-family: "Franklin Gothic Heavy";
     font-size: 21px;
     color: #B2B1A255;
-
+    
     text-decoration: none;
 }
 
 a.active {
     color: #AC9C72;
     text-decoration: underline;
+}
+
+
+/* Buttons */
+
+.button {
+    color: #B2B1A2;
+    border: 2px solid #B2B1A255;
+    padding: 14px 25px;
+    font-size: 16px;
 }
 
 
@@ -70,15 +80,16 @@ section {
     width: 100%;
 }
 
-.leftWhoAmI {
+.leftSection {
     flex: 3;
 }
 
-.rightWhoAmI {
+
+.rightSection {
     flex: 7;
 }
 
-.rightWhoAmI.logo {
+.rightSection.logo {
     display: flex;
     justify-content: flex-end;
 }
@@ -94,6 +105,7 @@ p {
 }
 
 p.small {
+    margin-top: 21px;
     color: #AC9C72;
     font-size: 13px;
 }
@@ -114,7 +126,7 @@ h1 {
 
 h2 {
     margin: 0 0 20px;
-
+    
     font-family: "Franklin Gothic Heavy";
     font-size: 66px;
     line-height: 0.9;
@@ -124,27 +136,35 @@ h2 {
 
 /* Images */
 
-div.rightWhoAmI img {
+div.rightSection img {
     display: block;
 
     width: 362px;
     max-width: 100%;
     height: auto;
+    margin-bottom: -62px;
 
     object-fit: contain;
+}
+.projectImage {
+    flex: 3;
+    max-width: 250px;
+    object-fit: contain;
+
 }
 
 
 /* Lines */
 
 hr {
-    margin: 0;
+    margin: 0 0 0 0;
     padding: 0;
     border-top: 0;
     color: #B2B1A250;
 }
 
 .midWhoAmI {
+    margin-top: 60px;
     margin-bottom: 60px;
 }
 

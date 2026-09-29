@@ -47,13 +47,15 @@ nav {
 }
 
 a {
-    margin-left: 40px;
-    
+    height: 75px;
     font-family: "Franklin Gothic Heavy";
     font-size: 21px;
-    color: #B2B1A255;
+    color: #B2B1A285;
     
     text-decoration: none;
+}
+a.navLink {
+    margin-left: 40px;
 }
 
 a.active {

@@ -106,12 +106,6 @@ p {
     color: #B2B1A2;
 }
 
-p.small {
-    margin-top: 21px;
-    color: #AC9C72;
-    font-size: 13px;
-}
-
 h1 {
     margin: 0;
 
@@ -119,6 +113,15 @@ h1 {
     font-size: clamp(50px, 8vw, 100px);
     line-height: 0.9;
     color: #B2B1A2;
+}
+
+.small {
+    margin-top: 21px;
+    color: #AC9C72;
+    font-size: 13px;
+    font-family: "Work Sans";
+    font-weight: normal;
+    font-style: normal;
 }
 
 .nick {

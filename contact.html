@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact | Nick</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet'>
+
+    </head>
+
+    <body>
+
+       <header>
+            <nav>
+                <a href="index.html"><img class="navbarLogo" src="images/NickLogo.png" alt="NickLogoNav"></a>
+                <div>
+                    <a class="navLink" href="index.html">WhoAmI</a>
+                    <a class="navLink" href="projects.html">Projects</a>
+                    <a class="navLink" href="blog.html">Blog</a>
+                    <a class="navLink active" href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+        
+        <hr class="headerLine">
+        
+        <main>
+            <section>
+                <h2>Contact</h2>
+            </section>
+            <hr class="midWhoAmI">
+            
+            <form id="contactForm" novalidate>
+
+                <div class="formDiv">
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name" aria-describedby="nameError">
+                    <p id="nameError" class="formError"></p>
+                </div>
+
+                <div class="formDiv">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" aria-describedby="emailError">
+                    <p id="emailError" class="formError"></p>
+                </div>
+
+                <div class="formDiv">
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" rows="6" aria-describedby="messageError"></textarea>
+                    <p id="messageError" class="formError"></p>
+                </div>
+
+                <button type="submit">SEND</button>
+
+                <p id="formSuccess" class="formSuccess"></p>
+
+            </form>
+
+
+        </main>
+        <hr class="footerLine">
+
+        <footer>
+            <span>Nick</span>
+            <span>2026</span>
+        </footer>
+
+        <script src="js/contact.js"></script>
+    </body>
+</html>

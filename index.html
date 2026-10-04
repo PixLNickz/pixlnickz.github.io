@@ -17,6 +17,7 @@
                     <a class="navLink active" href="index.html">WhoAmI</a>
                     <a class="navLink" href="projects.html">Projects</a>
                     <a class="navLink" href="blog.html">Blog</a>
+                    <a class="navLink" href="contact.html">Contact</a>
                 </div>
             </nav>
         </header>
@@ -28,6 +29,8 @@
                 <div class="leftSection">
                     <h1>Am I </h1><h1 class="nick">Nick?</h1>
                     <h2>Maybe.</h2>
+                    <p id="apiStatus">Loading weather data...</p>
+                    <div id="weatherData"></div>
                 </div>
                 <div class="rightSection logo">
                     <img src="images/NickLogo.png" alt="NickLogo">
@@ -54,8 +57,12 @@
             <a class="button" href="https://discordapp.com/users/492123687676411934" target="_blank">Discord↗</a>
             <a class="button" href="https://github.com/PixLNickz" target="_blank">Github↗</a>
 
+            
+
         </main>
+
         
+
         <hr class="footerLine">
 
         <footer>
@@ -63,5 +70,6 @@
             <span>2026</span>
         </footer>
 
+        <script src="js/api.js"></script>
     </body>
 </html>

@@ -64,13 +64,64 @@ a.active {
 }
 
 
-/* Buttons */
+/* Buttons, Searches & Fields*/
 
 .button {
     color: #B2B1A2;
     border: 2px solid #B2B1A255;
     padding: 14px 25px;
     font-size: 16px;
+}
+
+.projectFilter {
+    font-family: "Work Sans";
+    font-style: normal;
+    color: #AC9C72;
+    margin-bottom: 20px;
+}
+
+#projectSearch, #projectSort {
+    background-color: #00000000;
+    color:#AC9C72;
+    border-color: #AC9C72;
+    border-width: 0px;
+    padding: 5px;
+    border-radius: 4px;
+    
+}
+
+#contactForm, button{
+    font-family: "Work Sans";
+    color:#AC9C72;
+    font-size: 15px;
+
+}
+.formDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+.formDiv label, .formDiv input, .formDiv p, .formDiv textarea{
+    flex: 1;
+}
+input, textarea, button, select{
+    background-color: #00000000;
+    color:#AC9C72;
+    border-color: #AC9C72;
+    border-width: 0px;
+    padding: 5px;
+    border-radius: 4px;
+    width: 200px;
+    box-shadow: 0px 0px 5px #AC9C72;
+}
+.formError {
+    color: #AC9C7290;
+    font-size: 14px;
+    margin: 0;
+    margin-left: 10px;
+}
+.formSuccess {
+    color: #AC9C72;
+    font-size: 15px;
 }
 
 

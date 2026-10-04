@@ -18,6 +18,7 @@
                     <a class="navLink" href="index.html">WhoAmI</a>
                     <a class="navLink active" href="projects.html">Projects</a>
                     <a class="navLink" href="blog.html">Blog</a>
+                    <a class="navLink" href="contact.html">Contact</a>
                 </div>
             </nav>
         </header>
@@ -29,7 +30,27 @@
                 <h2>My projects</h2>
             </section>
             <hr class="midWhoAmI">
-            <section class="project">
+
+
+            <div class="projectFilter">
+                <label for="projectSearch">SEARCH FOR PROJECTS</label>
+                <input type="text" id="projectSearch" placeholder="Your search...">
+
+                <label for="projectSort">SORT</label>
+                <select id="projectSort">
+                    <option value="default">Default</option>
+                    <option value="az">Title A-Z</option>
+                    <option value="za">Title Z-A</option>
+                </select>
+            </div>
+
+            <div id="projects-container"></div>
+
+
+
+
+
+            <!-- <section class="project">
                 <div class="leftSection">
                     <h1 class="small">A BEAUTIFUL TITLE</h1>
                 </div>
@@ -67,7 +88,7 @@
                     </p>
                 </div>
                 <img class="projectImage" src="images/NickLogo.png" alt="ProjectImage3">
-            </section>
+            </section> -->
         </main>
         
         <hr class="footerLine">
@@ -77,5 +98,6 @@
             <span>2026</span>
         </footer>
 
+        <script src="js/projects.js"></script>
     </body>
 </html>
